@@ -119,8 +119,8 @@ form label {
 
 form select,
 form input {
-  margin: 20px;
-  width: 180px;
+  margin: 10px;
+  width: 100px;
 }
 
 form button {
@@ -130,6 +130,11 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+}
+
+.selectLabel {
+  
+  font-weight: bold;
 }
 
 
@@ -163,11 +168,10 @@ footer p {
     flex-direction: row;
   }
 
-  
-
   form select,
-form input {
-  margin: 0;
-  width: 10px;
-}
+  form input {
+    margin: 20px;
+    width: 180px;
+  }
+
 }
