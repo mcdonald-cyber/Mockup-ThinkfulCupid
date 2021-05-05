@@ -120,7 +120,7 @@ form label {
 form select,
 form input {
   margin: 10px;
-  width: 100px;
+  width: 75%;
 }
 
 form button {
